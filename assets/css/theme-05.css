@@ -1,0 +1,130 @@
+:root {
+    --hny-form-paddings: 2.5rem;
+    --hny-color-accent-100: hsla(125, 64%, 93%, 1);
+    --hny-color-accent-500: hsla(122, 39%, 40%, 1);
+    --hny-color-accent-700: hsla(124, 72%, 20%, 1);
+    --hny-color-gray-100: hsla(216, 33%, 97%, 1);
+    --hny-color-gray-300: hsla(0, 0%, 0%, 0.1);
+    --hny-color-gray-500: hsla(0, 0%, 69%, 1);
+    --hny-color-gray-700: hsla(210, 27%, 70%, 1);
+    --hny-color-gray-900: hsla(208, 20%, 24%, 1);
+    --hny-font-family: 'Rubik', sans-serif;
+    --hny-color-text-100: var(--hny-color-gray-100);
+    --hny-color-text: var(--hny-color-gray-500);
+    --hny-color-header: var(--hny-color-gray-900);
+    --hny-link-color: var(--hny-color-accent-500);
+    --hny-form-control-border: 1px solid var(--hny-color-gray-500);
+    --hny-form-control-padding: var(--hny-p2) var(--hny-p4);
+    --hny-form-control-radius: 0;
+    --hny-form-control-background: transparent;
+    --hny-shadow-color: var(--hny-color-gray-300)
+}
+
+.hny-container {
+    background-size: contain;
+    display: block;
+    align-items: center
+}
+
+.hny-inner {
+    display: block;
+    height: 100vh;
+    width: 100%
+}
+
+.hny-two-pane {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 1px 0px #066bef38;
+}
+
+.hny-two-pane>div {
+    flex: 1;
+    background-color: #fff
+}
+
+.hny-two-pane>div:first-child {
+    display: flex;
+    align-items: center
+}
+
+.hny-two-pane>div:last-child {
+    background: #fcfffc;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+
+.hny-form {
+    padding: 2.5rem;
+    padding: var(--hny-form-paddings);
+    background: #fff
+}
+
+.hny-container h4 {
+    font-weight: 700
+}
+
+.hny-container .btn-social {
+    font-weight: 500
+}
+
+.hny-form .hny-logo {
+    text-align: left;
+    color: #313e49;
+    color: var(--hny-color-gray-900)
+}
+
+@media(min-width:768px) {
+    .hny-container {
+        background-color: #f5f7fa;
+        background-color: var(--hny-color-gray-100)
+    }
+    .hny-two-pane>div:last-child {
+        display: flex
+    }
+}
+
+.hny-container .btn-social {
+    color: #313e49;
+    color: var(--hny-color-gray-900);
+    background-color: transparent!important;
+    width: auto;
+    display: inline-block;
+    font-size: .875rem;
+    font-size: var(--hny-text-sm);
+    padding: 0!important;
+    margin: 0!important;
+    margin-right: 1rem!important;
+    margin-right: var(--hny-p4)!important
+}
+
+.hny-container .btn-social:hover {
+    text-decoration: underline
+}
+
+.hny-form .form-group {
+    margin-bottom: 1rem;
+    margin-bottom: var(--hny-p4);
+    background: 0 0;
+    background: var(--hny-form-control-background);
+    border-radius: 0;
+    border-radius: var(--hny-form-control-radius);
+    transition: box-shadow .3s;
+    border: 1px solid transparent;
+    border: 1px solid var(--hny-form-control-background)
+}
+
+.hny-form .btn {
+    border-radius: 0;
+    border-radius: var(--hny-form-control-radius);
+    font-weight: 700;
+    padding: .5rem 1rem;
+    padding: var(--hny-p2) var(--hny-p4)
+}
+
+.hny-form .input-group .input-group-prepend+.form-control {
+    padding-left: .5rem;
+    padding-left: var(--hny-p2)
+}

@@ -1,0 +1,126 @@
+ .product-sec.py-4 {
+        background: #f5f5f575;
+        padding: 25px;
+        width: 80%;
+        margin: 10px auto;
+        border-radius: 20px;
+        margin-top: 0;
+    }
+
+    .price-sec {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #f5f5f575;
+        padding: 5px 15px;
+        width: 80%;
+        margin: 5px auto;
+        border-radius: 10px;
+        margin-top: 0;
+    }
+
+    .price-sec .amt {
+        color: #ef0707;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .price-sec h5 {
+        font-size: 14px;
+        margin: 0 !important;
+        color: #0052b0;
+    }
+
+    .coupon-sec {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin: 10px auto;
+        border-radius: 20px;
+        margin-top: 0;
+    }
+
+    .pay-sec {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin: 10px auto;
+        border-radius: 20px;
+        margin-top: 0;
+    }
+
+    .coupon-sec label {
+        font-size: 10px;
+        font-weight: 500;
+        color: #0d1b34;
+        margin-bottom: 5px;
+    }
+
+    .coupon-sec .input-group {
+        background-color: #f5f5f575;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .coupon-sec input {
+        border-radius: 0;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: 45px;
+    }
+
+    .coupon-sec button {
+        border-radius: 0;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 45px;
+    }
+
+    .appliedCpn {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+    }
+
+    .appliedCpn h5 {
+        margin: 0;
+        font-size: 12px;
+        color: #00b307;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .appliedCpn h5 span {
+        color: #00a9ff;
+    }
+
+    .price-box {
+        width: 80%;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+
+    .price-box .title {
+        position: relative;
+        display: block;
+        font-size: 16px;
+        line-height: 1.2em;
+        color: #222222;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    
+    
+    @media only screen and (max-width: 575px) {
+     .coupon-sec input {
+        padding-right:0 !important;
+    }
+    .price-box .title {
+    text-align: center;
+}
+}

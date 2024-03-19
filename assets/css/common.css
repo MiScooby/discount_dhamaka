@@ -1,0 +1,492 @@
+:root {
+    --hny-p1: 0.25rem;
+    --hny-p2: 0.5rem;
+    --hny-p3: 0.75rem;
+    --hny-p4: 1rem;
+    --hny-p5: 1.25rem;
+    --hny-p6: 1.5rem;
+    --hny-p8: 2rem;
+    --hny-p10: 2.5rem;
+    --hny-text-xs: 0.75rem;
+    --hny-text-sm: 0.875rem;
+    --hny-text-md: 1rem;
+    --hny-form-width: 26rem;
+    --hny-color-facebook: hsla(221, 40%, 47%, 1);
+    --hny-color-google: hsla(4, 69%, 53%, 1);
+    --hny-color-twitter: hsla(195, 100%, 60%, 1);
+    --hny-form-control-border: 1px solid red;
+    --hny-form-control-padding: 4px;
+    --hny-shadow-color: black;
+    --hny-shadow: 0 3px 6px var(--hny-shadow-color);
+    --hny-red-100: hsla(0, 100%, 94%, 1);
+    --hny-red-500: hsla(4, 69%, 53%, 1);
+    --hny-danger-100: hsla(0, 100%, 94%, 1);
+    --hny-danger-500: hsla(4, 69%, 53%, 1);
+    --hny-color-success-100: hsla(152, 68%, 96%, 1);
+    --hny-color-text: black;
+    --hny-color-header: var(--hny-color-text);
+    --hny-color-accent-500: red
+}
+
+.hny-container .text-xs {
+    font-size: .75rem;
+    font-size: var(--hny-text-xs)
+}
+
+.hny-container .text-sm {
+    font-size: .875rem;
+    font-size: var(--hny-text-sm)
+}
+
+.hny-container .text-md {
+    font-size: 1rem;
+    font-size: var(--hny-text-md)
+}
+
+.hny-container .cursor-pointer {
+    cursor: pointer
+}
+
+.hny-container .pt-1 {
+    padding-top: .25rem!important;
+    padding-top: var(--hny-p1)!important
+}
+
+.hny-container .pt-2 {
+    padding-top: .5rem!important;
+    padding-top: var(--hny-p2)!important
+}
+
+.hny-container .pt-4 {
+    padding-top: 1rem!important;
+    padding-top: var(--hny-p4)!important
+}
+
+.hny-container .pt-10 {
+    padding-top: 2.5rem!important;
+    padding-top: var(--hny-p10)!important
+}
+
+.hny-container .pb-1 {
+    padding-bottom: .25rem!important;
+    padding-bottom: var(--hny-p1)!important
+}
+
+.hny-container .pb-2 {
+    padding-bottom: .5rem!important;
+    padding-bottom: var(--hny-p2)!important
+}
+
+.hny-container .pb-4 {
+    padding-bottom: 1rem!important;
+    padding-bottom: var(--hny-p4)!important
+}
+
+.hny-container .pb-10 {
+    padding-bottom: 2.5rem!important;
+    padding-bottom: var(--hny-p10)!important
+}
+
+.hny-container .mr-1 {
+    margin-right: .25rem!important;
+    margin-right: var(--hny-p1)!important
+}
+
+.hny-container .mr-2 {
+    margin-right: .5rem!important;
+    margin-right: var(--hny-p2)!important
+}
+
+.hny-container .mr-4 {
+    margin-right: 1rem!important;
+    margin-right: var(--hny-p4)!important
+}
+
+.hny-container .mr-6 {
+    margin-right: 1.5rem!important;
+    margin-right: var(--hny-p6)!important
+}
+
+.hny-container .mr-10 {
+    margin-right: 2.5rem!important;
+    margin-right: var(--hny-p10)!important
+}
+
+.hny-container .mb-1 {
+    margin-bottom: .25rem!important;
+    margin-bottom: var(--hny-p1)!important
+}
+
+.hny-container .mb-2 {
+    margin-bottom: .5rem!important;
+    margin-bottom: var(--hny-p2)!important
+}
+
+.hny-container .mb-4 {
+    margin-bottom: 1rem!important;
+    margin-bottom: var(--hny-p4)!important
+}
+
+.hny-container .mb-5 {
+    margin-bottom: 1.25rem!important;
+    margin-bottom: var(--hny-p5)!important
+}
+
+.hny-container .mb-6 {
+    margin-bottom: 1.5rem!important;
+    margin-bottom: var(--hny-p6)!important
+}
+
+.hny-container .mb-8 {
+    margin-bottom: 2rem!important;
+    margin-bottom: var(--hny-p8)!important
+}
+
+.hny-container .mb-10 {
+    margin-bottom: 2.5rem!important;
+    margin-bottom: var(--hny-p10)!important
+}
+
+.hny-container .mt-1 {
+    margin-top: .25rem!important;
+    margin-top: var(--hny-p1)!important
+}
+
+.hny-container .mt-2 {
+    margin-top: .5rem!important;
+    margin-top: var(--hny-p2)!important
+}
+
+.hny-container .mt-4 {
+    margin-top: 1rem!important;
+    margin-top: var(--hny-p4)!important
+}
+
+.hny-container .mt-5 {
+    margin-top: 1.25rem!important;
+    margin-top: var(--hny-p5)!important
+}
+
+.hny-container .mt-6 {
+    margin-top: 1.5rem!important;
+    margin-top: var(--hny-p6)!important
+}
+
+.hny-container .mt-10 {
+    margin-top: 2.5rem!important;
+    margin-top: var(--hny-p10)!important
+}
+
+.hny-container .border-r-0 {
+    border-right-width: 0!important
+}
+
+.hny-container .btn-social {
+    color: #fff;
+    border: 0
+}
+
+.hny-container .btn-flat {
+    padding: 0!important
+}
+
+.hny-container .btn-facebook {
+    background: #4866a8;
+    background: var(--hny-color-facebook)
+}
+
+.hny-container .btn-facebook:hover {
+    background: #3d578f
+}
+
+.hny-container .btn-google {
+    background: #da3f34;
+    background: var(--hny-color-google)
+}
+
+.hny-container .btn-google:hover {
+    background: #bf3b31
+}
+
+.hny-container .btn-twitter {
+    background: #3cf;
+    background: var(--hny-color-twitter)
+}
+
+.hny-container .btn-twitter:hover {
+    background: #2eb7e5
+}
+
+.hny-form .btn.btn-primary {
+    border: 0;
+}
+
+.hny-form .btn.btn-primary:hover {
+    background-color: var(--hny-color-accent-700)
+}
+
+.hny-container .text-facebook {
+    color: #4866a8;
+    color: var(--hny-color-facebook)
+}
+
+.hny-container .text-google {
+    color: #da3f34;
+    color: var(--hny-color-google)
+}
+
+.hny-container .text-twitter {
+    color: #3cf;
+    color: var(--hny-color-twitter)
+}
+
+.hny-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--hny-font-family);
+    color: #000;
+    color: var(--hny-color-text)
+}
+
+.hny-container a {
+    color: #ef5936;
+}
+
+.hny-form {
+    margin: 0 auto
+}
+
+.hny-form h4 {
+    color: #000;
+    color: var(--hny-color-header);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-bottom: var(--hny-p4)
+}
+
+.hny-form .hny-logo {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    margin-bottom: var(--hny-p10)
+}
+
+.hny-form .form-control {
+    height: auto;
+    border: 1px solid red;
+    border: var(--hny-form-control-border);
+    padding: 4px;
+    padding: var(--hny-form-control-padding);
+    border-radius: var(--hny-form-control-radius);
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.hny-form .input-group-prepend .input-group-text,
+.hny-form .input-group-append .input-group-text {
+    border: 1px solid red;
+    border: var(--hny-form-control-border);
+    padding: 4px;
+    padding: var(--hny-form-control-padding);
+    border-radius: var(--hny-form-control-radius);
+    text-align: center;
+    display: inline-block;
+    min-width: 48px
+}
+
+.hny-form .input-group-prepend .input-group-text svg,
+.hny-form .input-group-append .input-group-text svg {
+    fill: currentColor
+}
+
+.hny-form .input-group .input-group-prepend+.form-control {
+    border-left: 0!important;
+    padding-left: .25rem;
+    padding-left: var(--hny-p1)
+}
+
+.hny-form .input-group .input-group-append+.form-control {
+    border-right: 0;
+    padding-right: .25rem;
+    padding-right: var(--hny-p1)
+}
+
+.hny-container .alert-danger {
+    background-color: #ffe0e0;
+    background-color: var(--hny-danger-100);
+    color: #da3f34;
+    color: var(--hny-danger-500)
+}
+
+.hny-container .has-error .form-control,
+.hny-container .has-error .input-group-append .input-group-text,
+.hny-container .has-error .input-group-prepend .input-group-text {
+    border-color: #da3f34;
+    border-color: var(--hny-danger-500);
+    outline-color: #da3f34;
+    outline-color: var(--hny-danger-500);
+    box-shadow: none
+}
+
+.hny-container .has-error .form-control,
+.hny-container .has-error .input-group-prepend .input-group-text {
+    color: #da3f34;
+    color: var(--hny-danger-500)
+}
+
+.hny-inner {
+    display: flex;
+    flex-direction: column
+}
+
+.hny-form {
+    margin: auto
+}
+
+@media(min-width:768px) {
+    .hny-inner {
+        height: auto;
+        width: 26rem;
+        width: var(--hny-form-width)
+    }
+    .hny-form {
+        width: 33rem;
+    }
+}
+
+.hny-container .has-error {
+    background: #ffe0e0;
+    background: var(--hny-danger-100)
+}
+
+.hny-container .has-error .form-control::-webkit-input-placeholder {
+    color: #da3f34;
+    color: var(--hny-danger-500)
+}
+
+.hny-container .has-error .form-control::-moz-placeholder {
+    color: #da3f34;
+    color: var(--hny-danger-500)
+}
+
+.hny-container .has-error .form-control:-ms-input-placeholder {
+    color: #da3f34;
+    color: var(--hny-danger-500)
+}
+
+.hny-container .has-error .form-control::-ms-input-placeholder {
+    color: #da3f34;
+    color: var(--hny-danger-500)
+}
+
+.hny-container .has-error .form-control::placeholder {
+    color: #da3f34;
+    color: var(--hny-danger-500)
+}
+
+.hny-container .has-error .form-control,
+.hny-container .has-error .input-group-text,
+.hny-container .has-error input:-webkit-autofill,
+.hny-container .has-error input:-webkit-autofill:hover,
+.hny-container .has-error input:-webkit-autofill:focus,
+.hny-container .has-error input:-webkit-autofill:active {
+    box-shadow: 0 0 0 30px #ffe0e0 inset!important;
+    box-shadow: 0 0 0 30px var(--hny-danger-100) inset!important;
+    border-color: #da3f34;
+    border-color: var(--hny-danger-500);
+    color: #da3f34;
+    color: var(--hny-danger-500)
+}
+
+.hny-container .is-valid,
+.hny-container .is-valid input:-webkit-autofill,
+.hny-container .is-valid input:-webkit-autofill:hover,
+.hny-container .is-valid input:-webkit-autofill:focus,
+.hny-container .is-valid input:-webkit-autofill:active {
+    background-color: #eefcf5;
+    background-color: var(--hny-color-success-100);
+    box-shadow: 0 0 0 30px #eefcf5 inset!important;
+    box-shadow: 0 0 0 30px var(--hny-color-success-100) inset!important
+}
+
+.hny-form .form-group.focused:not(.has-error) {
+    background: #fff;
+    border-color: var(--hny-color-text-100)
+}
+
+.hny-form .form-control,
+.hny-form .input-group-text {
+    color: #000;
+    color: var(--hny-color-text);
+    background: 0 0
+}
+
+.hny-form .form-control::-webkit-input-placeholder {
+    color: #000;
+    color: var(--hny-color-text)
+}
+
+.hny-form .form-control::-moz-placeholder {
+    color: #000;
+    color: var(--hny-color-text)
+}
+
+.hny-form .form-control:-ms-input-placeholder {
+    color: #000;
+    color: var(--hny-color-text)
+}
+
+.hny-form .form-control::-ms-input-placeholder {
+    color: #000;
+    color: var(--hny-color-text)
+}
+
+.hny-form .form-control::placeholder {
+    color: #000;
+    color: var(--hny-color-text)
+}
+
+.hny-container .custom-control-input:checked~.custom-control-label::before {
+    border-color: red;
+    border-color: var(--hny-color-accent-500);
+    background-color: red;
+    background-color: var(--hny-color-accent-500)
+}
+
+.hny-form .form-group .input-group-append .input-group-text {
+    padding-left: .5rem;
+    padding-left: var(--hny-p2);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0!important
+}
+
+.hny-form .form-group .input-group-append .input-group-text:hover {
+    color: red;
+    color: var(--hny-color-accent-500)
+}
+
+.hny-form .input-group-prepend .input-group-text {
+    padding-right: .5rem;
+    padding-right: var(--hny-p2);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0!important
+}
+
+.hny-container .alert {
+    margin-bottom: 1rem;
+    margin-bottom: var(--hny-p4)
+}
+
+.hny-container .password-field .form-control {
+    border-right: 0!important
+}
+
+.hny-container .btn-icon {
+    margin-right: 8px
+}

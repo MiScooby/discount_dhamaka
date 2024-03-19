@@ -1,0 +1,140 @@
+/*============================
+		COLOR Teal
+==============================*/
+
+a,
+a:focus {
+    color: #f5a705;
+}
+
+a:hover,
+a:active {
+    color: #1aa67d;
+}
+
+.discountdmk-login-register .nav:not(.nav-pills) .nav-item .nav-link.active,
+.discountdmk-login-register .nav:not(.nav-pills) .nav-item .nav-link:hover {
+    color: #f5a705;
+}
+
+.discountdmk-login-register .nav-tabs .nav-item .nav-link.active {
+    color: #0c2f55;
+}
+
+.discountdmk-login-register .nav-tabs .nav-item .nav-link.active:after {
+    background-color: #f5a705;
+}
+
+.discountdmk-login-register .nav-tabs .nav-item .nav-link:not(.active):hover {
+    color: #f5a705;
+}
+
+.discountdmk-login-register .nav-tabs.flex-column .nav-item .nav-link.active {
+    color: #f5a705;
+}
+
+.discountdmk-login-register .nav-pills .nav-link:not(.active):hover {
+    color: #f5a705;
+}
+
+.discountdmk-login-register .bg-primary,
+.discountdmk-login-register .badge-primary {
+    background-color: #f5a705!important;
+}
+
+.discountdmk-login-register .text-primary,
+.discountdmk-login-register .link-primary,
+.discountdmk-login-register .btn-link {
+    color: #f5a705!important;
+}
+
+.discountdmk-login-register .btn-link:hover,
+.discountdmk-login-register .link-primary:hover {
+    color: #1aa67d !important;
+}
+
+.discountdmk-login-register .text-muted {
+    color: #8e9a9d !important;
+}
+
+.discountdmk-login-register .text-light {
+    color: #dee3e4 !important;
+}
+
+.discountdmk-login-register a.bg-primary:focus,
+.discountdmk-login-register a.bg-primary:hover,
+.discountdmk-login-register button.bg-primary:focus,
+.discountdmk-login-register button.bg-primary:hover {
+    background-color: #1aa67d !important;
+}
+
+.discountdmk-login-register .border-primary {
+    border-color: #f5a705!important;
+}
+
+.discountdmk-login-register .btn-primary {
+    background-color: #f5a705;
+    border-color: #f5a705;
+}
+
+.discountdmk-login-register .btn-primary:hover {
+    background-color: #1aa67d;
+    border-color: #1aa67d;
+}
+
+.discountdmk-login-register .btn-primary:not(:disabled):not(.disabled).active,
+.discountdmk-login-register .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #1aa67d;
+    border-color: #1aa67d;
+}
+
+.discountdmk-login-register .btn-primary.focus,
+.discountdmk-login-register .btn-primary:focus {
+    background-color: #1aa67d;
+    border-color: #1aa67d;
+}
+
+.discountdmk-login-register .btn-outline-primary,
+.discountdmk-login-register .btn-outline-primary:not(:disabled):not(.disabled).active,
+.discountdmk-login-register .btn-outline-primary:not(:disabled):not(.disabled):active {
+    color: #f5a705;
+    border-color: #f5a705;
+}
+
+.discountdmk-login-register .btn-outline-primary:hover,
+.discountdmk-login-register .btn-outline-primary:not(:disabled):not(.disabled).active:hover,
+.discountdmk-login-register .btn-outline-primary:not(:disabled):not(.disabled):active:hover {
+    background-color: #f5a705;
+    border-color: #f5a705;
+    color: #fff;
+}
+
+.discountdmk-login-register .progress-bar,
+.discountdmk-login-register .nav-pills .nav-link.active,
+.discountdmk-login-register .nav-pills .show>.nav-link,
+.discountdmk-login-register .dropdown-item.active,
+.discountdmk-login-register .dropdown-item:active {
+    background-color: #f5a705;
+}
+
+.discountdmk-login-register .page-item.active .page-link,
+.discountdmk-login-register .custom-radio .custom-control-input:checked~.custom-control-label:before,
+.discountdmk-login-register .custom-control-input:checked~.custom-control-label::before,
+.discountdmk-login-register .custom-checkbox .custom-control-input:checked~.custom-control-label:before,
+.discountdmk-login-register .custom-control-input:checked~.custom-control-label:before {
+    background-color: #f5a705;
+    border-color: #f5a705;
+}
+
+.discountdmk-login-register .list-group-item.active {
+    background-color: #f5a705;
+    border-color: #f5a705;
+}
+
+.discountdmk-login-register .page-link {
+    color: #f5a705;
+}
+
+.discountdmk-login-register .page-link:hover {
+    color: #1aa67d;
+}

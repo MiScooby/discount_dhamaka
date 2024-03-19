@@ -1,0 +1,1041 @@
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+.registration-form {
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow: clip !important;
+}
+
+
+/*shapes*/
+
+.shapes-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.shapes-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.shapes-top .big-shape,
+.shapes-bottom .big-shape {
+    background-color: #f5a705;
+    width: 50px;
+    height: 40px;
+}
+
+.shapes-top .small-shape,
+.shapes-bottom .small-shape {
+    width: 30px;
+    background-color: #f5a705;
+    position: relative;
+    right: 60%;
+    height: 30px;
+}
+
+
+/*sidebar*/
+
+.sidebar {
+    position: relative;
+    background-color: #f5a705;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sidebar-inner {
+    position: sticky;
+    top: 0;
+    min-height: 100vh;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    padding: 64px 0 50px 70px;
+    width: 100%;
+}
+
+
+/*sidebar-text*/
+
+.sidebar-text h2 {
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+}
+
+.sidebar-text p {
+    font-size: 14px;
+    /* font-family: "Roboto"; */
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    width: 100%;
+    font-weight: 400;
+}
+
+
+/*contact-info*/
+
+.contact-info {
+    margin: 40px 0px;
+}
+
+.contact-info-inner {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.contact-info .contact-icon {
+    background-color: rgb(25, 25, 27);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50%;
+    margin-top: 0;
+}
+
+.contact-info .contact-icon i {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+
+/*rotate phone icon*/
+
+.fa-rotate-by {
+    --fa-rotate-angle: -45deg;
+}
+
+.contact-info .contact-details {
+    width: auto;
+    margin-left: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.contact-info .contact-details p {
+    font-size: 16px;
+    /* font-weight: bold; */
+    margin-bottom: 0;
+}
+
+.contact-info .contact-details h6 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffd3d3;
+}
+
+.contact-info button {
+    margin-top: 20px;
+    background: transparent;
+    font-size: 16px;
+    /* font-weight: bold; */
+    position: relative;
+    transition: all .5s ease;
+    background-color: rgb(25, 25, 27);
+    border: 0;
+    z-index: 0;
+    color: rgb(255, 255, 255);
+    padding: 8px 30px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.contact-info button:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background-image: linear-gradient(90deg, transparent, #f5a705, transparent);
+    transition: 0.5s ease;
+}
+
+.contact-info button:hover:before {
+    left: 100%;
+}
+
+
+/*registration-form*/
+
+.registration-form-inner {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.registration-inner {
+    min-height: 100vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registration-form-inner .wrapper {
+    padding: 20px 60px 40px 60px;
+}
+
+
+/*main-heading*/
+
+.main-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(22, 40, 63);
+}
+
+.main-heading h1 {
+    font-size: 24px;
+    /* font-weight: bold; */
+}
+
+.main-heading p {
+    margin-bottom: 0;
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+.main-heading p a {
+    color: #f5a705;
+}
+
+
+/*form*/
+
+.form-inner {
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.form-inner h3 {
+    font-size: 16px;
+    color: rgb(221 39 19);
+    /* font-weight: bold; */
+    position: relative;
+    margin-left: 12px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.form-inner h3::before {
+    content: "*";
+    position: absolute;
+    top: 0;
+    left: -12px;
+    color: inherit;
+}
+
+
+/*form label*/
+
+.form-inner label {
+    display: block;
+    margin-bottom: 5px;
+    transition: 0.5s ease;
+    top: 0;
+    width: fit-content;
+    font-size: 14px;
+    color:rgb(152 152 152);
+    font-weight: 500;
+}
+
+.labelHeadingSrb{
+    color: #836fc1 !important;
+    font-weight: 700 !important;
+}
+/*form input-field*/
+
+.input-field {
+    width: 100%;
+    transition: 0.5s;
+    height: 50px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+input:focus-visible {
+    outline: 0;
+}
+select:focus-visible {
+    outline: 0;
+}
+
+/*form field style*/
+
+.input-field input,
+.input-field select {
+    border: solid 2px rgb(229, 229, 229);
+    background-color: rgb(255, 255, 255);
+    display: block;
+    padding-left: 40px;
+    transition: 0.5s ease;
+    width: inherit;
+    height: inherit;
+    font-size: 14px;
+    /* font-family: "Roboto"; */
+    /* color: rgb(178, 178, 178); */
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-field select {
+    -webkit-appearance: none;
+    position: relative;
+    cursor: pointer;
+    z-index: 0;
+    background: transparent;
+}
+
+
+/*form select field dropdown button*/
+
+.input-field select+span::after {
+    font-family: "Font Awesome 5 Free";
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(178, 178, 178);
+    line-height: 30px;
+    content: "\f107";
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(236, 236, 236);
+    pointer-events: none;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: calc(0px + 15px);
+    top: 26%;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.input-field input[type=number] {
+    -webkit-appearance: none;
+}
+
+
+/*on focus style*/
+
+
+/* .focused label {
+    color: rgb(255, 255, 255);
+    background-color: #f5a705;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 12px;
+    width: fit-content;
+    position: relative;
+    top: 12px;
+    z-index: 1;
+} */
+
+.focused input:focus,
+.focused select:focus {
+    border: solid 2px #f5a705;
+    box-shadow: 0px 1px 29px 0px rgba(1, 1, 1, 0.09);
+    outline: none;
+}
+
+.focused .input-field input+span:before,
+.focused .input-field select+span:before {
+    font-family: "Font Awesome 5 Free";
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f5a705;
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    left: -16.5px;
+    top: 25%;
+    z-index: 10;
+}
+
+.input-field select {
+    border: solid 2px rgb(229, 229, 229) !important;
+}
+
+.focused select+span::after {
+    background-color: #f5a705;
+    color: rgb(255, 255, 255);
+}
+
+
+/*password-field eye-icon*/
+
+.input-field .toggle-icon {
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    right: 20px;
+    font-size: 16px;
+    color: rgb(104, 104, 104);
+}
+
+
+/*password meter*/
+
+.pass-strength {
+    line-height: 0;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    width: 300px;
+    margin: 0px auto;
+    transition: 0.5s ease;
+    height: 3px;
+}
+
+.pass-strength span {
+    background-color: rgb(120, 197, 115);
+    height: inherit;
+    z-index: 1;
+    display: inherit;
+    transition: 0.5s ease;
+    width: 0;
+}
+
+
+/*pass-strength*/
+
+.pass-check {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pass-check span {
+    display: block;
+    font-size: 15px;
+    color: rgb(114, 114, 114);
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.pass-check span i {
+    margin-right: 20px;
+}
+
+.pass-check .fa-check {
+    color: #78c573;
+}
+
+.pass-check .fa-xmark {
+    color: #ff4444;
+}
+
+
+/*on focus before icons*/
+
+.focused .input-field input[type=text]+span:before {
+    content: "\f007";
+}
+
+.focused .input-field input[type=email]+span:before {
+    content: "\f0e0";
+}
+
+.focused .input-field input[type=tel]+span:before {
+    content: "\f095";
+}
+
+.focused .input-field input[name=reg-num]+span:before {
+    content: "\f02a";
+}
+
+.focused .input-field select+span:before {
+    content: "\f57d";
+}
+
+.focused .input-field input[type=number]+span:before {
+    content: "\23";
+}
+
+.focused .input-field input[type=password]+span:before {
+    content: "\f084";
+}
+
+
+/*registration button/terms notification*/
+
+.register-field {
+    margin-top: 0;
+}
+
+.register-field label {
+    font-size: 13px;
+    color: rgb(147 147 147);
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.register-field .label-text {
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.register-field .label-input {
+    margin-top: 5px;
+}
+
+.register-field .label-input input[type=checkbox] {
+    -webkit-appearance: none;
+    border: solid 2px rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
+    height: 15px;
+    cursor: pointer;
+    position: relative;
+    width: 15px;
+}
+
+.register-field .label-input input[type=checkbox]:checked {
+    border: solid 2px #f5a705;
+}
+
+.register-field .label-input input[type=checkbox]:checked::before {
+    position: absolute;
+    content: "\f00c";
+    background-color: #f5a705;
+    width: 100%;
+    height: 100%;
+    font-family: "Font Awesome 5 Free";
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.register-field label a {
+    text-decoration: none;
+    color: #f5a705;
+}
+
+.reg-btn {
+    width: 280px;
+    height: 70px;
+}
+
+.reg-btn button {
+    border-radius: 33px;
+    background-color: #f5a705;
+    width: 83%;
+    height: 65%;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    border: solid 2px transparent;
+    font-weight: 600;
+}
+
+.reg-btn:hover button::before {
+    opacity: 1;
+    left: calc(0px + 30px);
+}
+
+.onchangeshow {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .registration-form-inner .wrapper {
+        padding: 22px 0 40px 0;
+    }
+    .register-field label {
+        font-size: 11px;
+        color: rgb(147 147 147);
+        cursor: pointer;
+        font-weight: 500;
+        display: flex;
+        width: 100%;
+        margin-bottom: 15px;
+        align-items: flex-start;
+    }
+    .main-heading {
+        display: flex;
+        color: rgb(22, 40, 63);
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form-inner {
+        margin-top: 15px;
+        background: #fcfcfc78;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid #f7f5f573;
+    }
+    .file-upload .file-upload-select {
+        display: block;
+        color: #a5a1a1;
+        cursor: pointer;
+        text-align: left;
+        background: #ffffff;
+        overflow: hidden;
+        position: relative;
+        border: solid 2px rgb(229, 229, 229) !important;
+        margin-top: 0 !important;
+        margin-bottom: 12px;
+        height: 38px !important;
+    }
+    .file-upload .file-upload-select .file-select-button {
+        background: #f5a705;
+        padding: 14px !important;
+        display: inline-block;
+        color: white;
+        line-height: 13px !important;
+        height: 38px !important;
+    }
+    .main-heading h1 {
+        font-size: 20px;
+        /* font-weight: bold; */
+    }
+    .main-heading p {
+        margin-bottom: 0;
+        margin-top: 5px;
+        font-size: 14px;
+        /* font-weight: bold; */
+    }
+    .wrapper {
+        padding-left: 0 !important;
+    }
+    .sidebar-text h2 {
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+        /* font-weight: bold; */
+    }
+    .sidebar-text p {
+        font-size: 13px;
+        /* font-family: "Roboto"; */
+        color: rgb(255, 255, 255);
+        margin-top: 8px;
+        width: 100%;
+        font-weight: 400;
+    }
+    .wrapper {
+        box-sizing: border-box;
+        padding: 25px 0 0 70px;
+        width: 100%;
+    }
+    .sidebar-inner {
+        position: sticky;
+        top: 0;
+        min-height: auto;
+    }
+    .bus_logo {
+        margin-bottom: 15px !important;
+    }
+    .contact-info button {
+        margin-top: 0;
+        background: transparent;
+        font-size: 13px;
+        /* font-weight: bold; */
+        position: relative;
+        transition: all .5s ease;
+        background-color: rgb(25, 25, 27);
+        border: 0;
+        z-index: 0;
+        color: rgb(255, 255, 255);
+        padding: 8px 15px;
+        overflow: hidden;
+        border-radius: 30px;
+    }
+    .contact-info {
+        margin: 20px 0px 30px;
+    }
+    .contact-info .contact-icon {
+        background-color: rgb(25, 25, 27);
+        width: 28px;
+        height: 28px;
+        text-align: center;
+        line-height: 42px;
+        border-radius: 50%;
+        margin-top: 0;
+    }
+    .contact-info .contact-icon i {
+        font-size: 13px;
+        color: rgb(255, 255, 255);
+    }
+    .contact-info .contact-icon {
+        background-color: rgb(25, 25, 27);
+        width: 28px;
+        height: 28px;
+        text-align: center;
+        line-height: 28px;
+        border-radius: 50%;
+        margin-top: 8px;
+    }
+    .contact-info .contact-details p {
+        font-size: 14px;
+        /* font-weight: bold; */
+        margin-bottom: 0;
+    }
+    .contact-info .contact-details h6 {
+        font-size: 13px;
+        font-weight: 400;
+        color: #ffd3d3;
+    }
+    .input-field {
+        width: 100%;
+        transition: 0.5s;
+        height: 38px;
+        position: relative;
+        margin-bottom: 12px;
+    }
+    a.veri_otp {
+        position: absolute;
+        top: 2px;
+        right: 1px;
+        background-color: #f5a705;
+        color: white;
+        display: inline-block;
+        width: 93px;
+        height: 34px !important;
+        text-align: center;
+        padding-top: 5px !important;
+    }
+    a.snd_otp {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        background-color: #f5a705;
+        color: white;
+        width: 93px;
+        display: inline-block;
+        text-align: center;
+        height: 34px !important;
+        padding-top: 5px !important;
+    }
+    .reg-btn button {
+        border-radius: 33px;
+        background-color: #f5a705;
+        width: 140px;
+        height: 40px;
+        font-size: 17px;
+        position: relative;
+        overflow: hidden;
+        color: rgb(255, 255, 255);
+        border: solid 2px transparent;
+        font-weight: 600;
+    }
+    .input-field select+span::after {
+        font-family: "Font Awesome 5 Free";
+        font-size: 12px;
+        font-weight: bold;
+        color: rgb(178, 178, 178);
+        line-height: 27px;
+        content: "\f107";
+        text-align: center;
+        border-radius: 50%;
+        background-color: rgb(236, 236, 236);
+        pointer-events: none;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        right: calc(0px + 15px);
+        top: 16%;
+        cursor: pointer;
+        z-index: 0;
+    }
+}
+
+footer.ec-footer {
+    display: none;
+}
+
+header.ec-header {
+    display: none;
+}
+
+section.section.srb-category-section.section-space-p.myheadercat_sec {
+    display: none;
+}
+
+.bus_logo {
+    margin-bottom: 3rem;
+}
+
+#scrollUp {
+
+    background-color: #f5a705;
+}
+
+.ec-cc-style .cc-button {
+    background-color: #f5a705;
+}
+
+input {
+    line-height: 18px;
+    padding-left: 0px;
+    color: #000;
+}
+
+a.snd_otp {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-color: #f5a705;
+    color: white;
+    width: 93px;
+    display: inline-block;
+    text-align: center;
+    height: 46px;
+    padding-top: 12px;
+}
+
+a.veri_otp {
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    background-color: #f5a705;
+    color: white;
+    display: inline-block;
+    width: 93px;
+    height: 46px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+div#target {
+    display: none;
+}
+
+input[type="file"] {
+    padding: 11px;
+}
+
+.bus_logo img {
+    background-color: white;
+    border-radius: 4px;
+    padding: 6px;
+    width: 250px;
+}
+
+.req{
+    color: red;
+    font-weight:600;
+}
+
+button#verifyVendorMobOtp {
+    background: #39d68f;
+    border-color: #39d68f;
+}
+
+button#verifyMobOtp {
+    background: #f9c65d;
+    border-color: #f9c65d;
+    color: #fff;
+    text-shadow: 0px 1px 1px #0000004a;
+}
+p.resendotp, p.resendotp a {
+    color: green !important;
+    font-size: 12px;
+    margin-top: 10px;
+    float: right;
+    padding: 0;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.file-upload .file-upload-select {
+    display: block;
+    color: #a5a1a1;
+    cursor: pointer;
+    text-align: left;
+    background: #ffffff;
+    overflow: hidden;
+    position: relative;
+    border: solid 2px rgb(229, 229, 229) !important;
+    margin-top: 28px;
+    height: 50px;
+}
+
+.file-upload .file-upload-select .file-select-button {
+    background: #f5a705;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    height: 50px;
+}
+
+.file-upload .file-upload-select .file-select-name {
+    display: inline-block;
+    padding: 10px;
+    color: black !important;
+}
+
+.file-upload .file-upload-select:hover .file-select-button {
+    background: #324759;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.file-upload .file-upload-select input[type="file"] {
+    display: none;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    border: solid 2px rgb(229, 229, 229);
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    font-size: 14px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 43px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 50px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 20px;
+}
+
+.veribtn {
+    margin-top: 25px;
+}
+
+.veribtn button.myotpbtn {
+    font-size: 14px;
+    background: #f5a705;
+    border: 1px solid #f5a705;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    font-weight: 600;
+    border-radius: 0.25rem;
+}
+
+#bussinessDetails input:disabled {
+    cursor: default;
+    background-color: rgb(237 237 237 / 30%);
+    color: rgb(187 174 174 / 30%);
+    border-color: rgb(228 228 228 / 30%);
+}
+#bussinessDetails select:disabled {
+    cursor: default;
+    background-color: rgb(237 237 237 / 30%);            
+    border-color: rgb(228 228 228 / 30%);
+}
+
+.mytopdiv {
+    padding-top: 40px;
+}
+.mytopdiv h3 {
+    font-size: 22px;
+    color: #6545ccd6;
+    font-weight: 700;
+}
+
+.mytopdiv .d-flex .text-muted {
+    --bs-text-opacity: 1;
+    color: #3bb586!important;
+    font-weight: 600;
+}
+
+.srb-mt-form{
+    margin-top: 100px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: auto;
+    border-radius: 50%;
+    border: 6px solid #f5a705;
+    border-color: #f5a705 transparent #f5a705 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255 214 153 / 8%);
+    z-index: 999;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.registration-stats {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.registration-stats h3 {
+    color: #7650e0;
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+.registration-stats p {
+    color: #595959;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,150 @@
+ @media (min-device-width: 1600px) {}
+ 
+ @media only screen and (min-device-width: 1200px) and (max-device-width: 1440px) {
+     .wrapper {
+         padding-left: 25px;
+     }
+     .input-field input,
+     .input-field select {
+         padding-left: 10px;
+     }
+ }
+ 
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+     .wrapper {
+         padding-left: 30px;
+         padding-top: 100px;
+     }
+     .sidebar-text h2 {
+         font-size: 30px;
+     }
+     .sidebar-text p {
+         font-size: 16px;
+         width: 100%;
+     }
+     .contact-info .contact-details p {
+         font-size: 17px;
+     }
+     .contact-info .contact-details h6 {
+         font-size: 20px;
+     }
+     .registration-form-inner .wrapper {
+         padding: 80px 20px 80px 30px;
+     }
+     .input-field input,
+     .input-field select {
+         padding-left: 20px;
+     }
+     .register-field label {
+         font-size: 14px;
+     }
+     .reg-btn {
+         width: 220px;
+         height: 55px;
+     }
+ }
+ 
+ @media only screen and (min-device-width: 576px) and (max-device-width: 768px) {
+     .tab-100 {
+         width: 100%;
+     }
+     .tab-50 {
+         width: 50%;
+     }
+     .sidebar {
+         width: 40%;
+     }
+     .sidebar-text h2 {
+         font-size: 30px;
+     }
+     .sidebar-text p {
+         font-size: 16px;
+         width: 100%;
+     }
+     .register-field label {
+         font-size: 14px;
+     }
+     .contact-info .contact-details p {
+         font-size: 17px;
+     }
+     .contact-info .contact-details h6 {
+         font-size: 20px;
+     }
+     .registration-form-inner {
+         width: 60%;
+     }
+     .wrapper {
+         padding: 70px 0 50px 0;
+     }
+     .registration-form-inner .wrapper {
+         padding: 80px 00px 80px 0px;
+     }
+     .main-heading {
+         display: block;
+     }
+     .main-heading h1 {
+         font-size: 35px;
+     }
+     .form-inner h3 {
+         font-size: 25px;
+     }
+     .register-field label {
+         width: fit-content;
+     }
+     .reg-btn {
+         margin-top: 30px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+ }
+ 
+ @media only screen and (min-device-width: 320px) and (max-device-width: 576px) {
+     .sidebar-text h2 {
+         font-size: 30px;
+     }
+     .sidebar-text p {
+         font-size: 16px;
+         width: 100%;
+     }
+     .register-field label {
+         font-size: 14px;
+     }
+     .contact-info .contact-details p {
+         font-size: 17px;
+     }
+     .contact-info .contact-details h6 {
+         font-size: 20px;
+     }
+     .wrapper {
+         padding: 50px 0;
+     }
+     .sidebar-inner {
+         min-height: auto;
+     }
+     .main-heading {
+         display: block;
+     }
+     .main-heading h1 {
+         font-size: 35px;
+     }
+     .form-inner h3 {
+         font-size: 22px;
+     }
+     .registration-form-inner .wrapper {
+         padding: 80px 0;
+     }
+     .register-field label {
+         width: fit-content;
+     }
+     .reg-btn {
+         margin-top: 30px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     #sidbar {
+         order: 2;
+     }
+     #reg-form {
+         order: 1;
+     }
+ }
